@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: "Amândio Silva - Full-Stack Developer",
   description:
     "Portfólio de Amândio Silva - Desenvolvedor Full-Stack especializado em C++, JavaScript, React, Node.js e muito mais.",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
