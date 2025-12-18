@@ -35,16 +35,16 @@ export function Contact() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-            <span className="gradient-text">Vamos Conversar</span>
+            <span className="gradient-text">Let's Talk</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Info */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-semibold mb-4 text-primary">Entre em Contato</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-primary">Get in Touch</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Estou sempre interessado em novos projetos e oportunidades. Vamos criar algo incrível juntos!
+                  I am always interested in new projects and opportunities. Let's create something incredible together!
                 </p>
               </div>
 
@@ -64,8 +64,8 @@ export function Contact() {
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Localização</h4>
-                    <p className="text-muted-foreground">Souselo,Cinfães , Portugal</p>
+                    <h4 className="font-semibold">Location</h4>
+                    <p className="text-muted-foreground">Souselo, Cinfães, Portugal</p>
                   </div>
                 </div>
               </div>
@@ -89,19 +89,19 @@ export function Contact() {
             {/* Contact Form */}
             <Card className="border-primary/20">
               <CardHeader>
-                <CardTitle>Enviar Mensagem</CardTitle>
-                <CardDescription>Preencha o formulário abaixo e entrarei em contato em breve.</CardDescription>
+                <CardTitle>Send Message</CardTitle>
+                <CardDescription>Fill out the form below and I will get back to you shortly.</CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div className="space-y-2">
-                    <Label htmlFor="name">Nome</Label>
+                    <Label htmlFor="name">Name</Label>
                     <Input
                       id="name"
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="Seu nome"
+                      placeholder="Your name"
                       required
                     />
                   </div>
@@ -114,26 +114,26 @@ export function Contact() {
                       type="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="seu@email.com"
+                      placeholder="your@email.com"
                       required
                     />
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="message">Mensagem</Label>
+                    <Label htmlFor="message">Message</Label>
                     <Textarea
                       id="message"
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
-                      placeholder="Sua mensagem..."
+                      placeholder="Your message..."
                       rows={4}
                       required
                     />
                   </div>
 
                   <Button type="submit" className="w-full bg-primary hover:bg-primary/90">
-                    Enviar Mensagem
+                    Send Message
                   </Button>
                 </form>
               </CardContent>

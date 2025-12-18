@@ -8,7 +8,7 @@ export function Projects() {
     {
       title: "42-Piscine",
       description:
-        "Conjunto de projetos desenvolvidos durante a Piscine da 42 Porto, focando em fundamentos de programação em C.",
+        "Set of projects developed during the 42 Porto Piscine, focusing on fundamentals of C programming.",
       image: "/c-programming-code-terminal.jpg",
       technologies: ["C", "Shell", "Makefile"],
       github: "https://github.com/Amandio-Silva/42-Piscine",
@@ -16,21 +16,21 @@ export function Projects() {
     },
     {
       title: "Libft",
-      description: "Implementação de uma biblioteca pessoal em C, recriando funções essenciais da biblioteca padrão.",
+      description: "Implementation of a personal C library, recreating essential functions from the standard library.",
       image: "/c-library-functions-code.jpg",
       technologies: ["C", "Makefile"],
       github: "https://github.com/Amandio-Silva/Libft",
     },
     {
       title: "Get_Next_Line",
-      description: "Função que lê uma linha de um file descriptor, otimizada para eficiência de memória.",
+      description: "Function that reads a line from a file descriptor, optimized for memory efficiency.",
       image: "/file-reading-c-programming.jpg",
       technologies: ["C", "File I/O"],
       github: "https://github.com/Amandio-Silva/Get_Next_Line",
     },
     {
       title: "Printf",
-      description: "Reimplementação da função printf da biblioteca padrão C com suporte a vários especificadores.",
+      description: "Reimplementation of the C standard library printf function with support for various specifiers.",
       image: "/printf-function-c-implementation.jpg",
       technologies: ["C", "Variadic Functions"],
       github: "https://github.com/Amandio-Silva/Printf",
@@ -42,7 +42,7 @@ export function Projects() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-            <span className="gradient-text">Projetos em Destaque</span>
+            <span className="gradient-text">Featured Projects</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -80,7 +80,7 @@ export function Projects() {
                     <Button variant="outline" size="sm" asChild>
                       <a href={project.github} target="_blank" rel="noopener noreferrer">
                         <Github className="h-4 w-4 mr-2" />
-                        Código
+                        Code
                       </a>
                     </Button>
                   </div>
@@ -93,7 +93,7 @@ export function Projects() {
             <Button variant="outline" size="lg" asChild>
               <a href="https://github.com/Amandio-Silva" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5 mr-2" />
-                Ver Todos os Projetos no GitHub
+                View All Projects on GitHub
               </a>
             </Button>
           </div>

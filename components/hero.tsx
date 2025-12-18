@@ -41,7 +41,7 @@ export function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="block text-foreground">Olá, sou</span>
+            <span className="block text-foreground">Hello, I am</span>
             <span className="block gradient-text animate-glow">Amândio Silva</span>
           </h1>
 
@@ -51,17 +51,17 @@ export function Hero() {
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Estudante de Informática na <span className="text-primary font-semibold">UMAIA</span> e{" "}
-            <span className="text-primary font-semibold">42 Porto</span>. Apaixonado por criar soluções inovadoras com
-            código limpo e eficiente.
+            Computer Science student at <span className="text-primary font-semibold">UMAIA</span> and{" "}
+            <span className="text-primary font-semibold">42 Porto</span>. Passionate about creating innovative solutions
+            with clean and efficient code.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg">
-              <a href="#projects">Ver Projetos</a>
+              <a href="#projects">View Projects</a>
             </Button>
             <Button variant="outline" size="lg" className="px-8 py-3 text-lg bg-transparent">
-              <a href="#contact">Entrar em Contato</a>
+              <a href="#contact">Get in Touch</a>
             </Button>
           </div>
         </div>

@@ -9,7 +9,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Amândio Silva - Full-Stack Developer",
   description:
-    "Portfólio de Amândio Silva - Desenvolvedor Full-Stack especializado em C++, JavaScript, React, Node.js e muito mais.",
+    "Amândio Silva's Portfolio - Full-Stack Developer specialized in C++, JavaScript, React, Node.js and more.",
 }
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt">
+    <html lang="en">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />

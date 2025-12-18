@@ -9,12 +9,12 @@ export function Skills() {
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null)
 
   const programmingLanguages = [
-    { name: "C++", level: 85, description: "Linguagem principal nos projetos da 42 Porto" },
-    { name: "C", level: 80, description: "Base sólida em programação de sistemas" },
-    { name: "JavaScript/TypeScript", level: 75, description: "Desenvolvimento web moderno" },
-    { name: "Python", level: 70, description: "Scripts e automação" },
-    { name: "Java", level: 65, description: "Programação orientada a objetos" },
-    { name: "SQL", level: 70, description: "Gestão de bases de dados" },
+    { name: "C++", level: 85, description: "Primary language in 42 Porto projects" },
+    { name: "C", level: 80, description: "Solid foundation in systems programming" },
+    { name: "JavaScript/TypeScript", level: 75, description: "Modern web development" },
+    { name: "Python", level: 70, description: "Scripting and automation" },
+    { name: "Java", level: 65, description: "Object-oriented programming" },
+    { name: "SQL", level: 70, description: "Database management" },
   ]
 
   const technologies = ["React.js", "Next.js", "Node.js", ".NET Framework", "HTML", "CSS", "PHP", "Lua", "Figma"]
@@ -26,14 +26,14 @@ export function Skills() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-            <span className="gradient-text">Skills & Tecnologias</span>
+            <span className="gradient-text">Skills & Technologies</span>
           </h2>
 
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Programming Languages */}
             <Card className="border-primary/20 hover:border-primary/40 transition-colors">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Linguagens de Programação</CardTitle>
+                <CardTitle className="text-2xl text-primary">Programming Languages</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 {programmingLanguages.map((skill) => (
@@ -61,7 +61,7 @@ export function Skills() {
             {/* Technologies */}
             <Card className="border-primary/20 hover:border-primary/40 transition-colors">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Tecnologias & Frameworks</CardTitle>
+                <CardTitle className="text-2xl text-primary">Technologies & Frameworks</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
@@ -81,7 +81,7 @@ export function Skills() {
             {/* Tools */}
             <Card className="border-primary/20 hover:border-primary/40 transition-colors">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Ferramentas & Ambiente</CardTitle>
+                <CardTitle className="text-2xl text-primary">Tools & Environment</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">

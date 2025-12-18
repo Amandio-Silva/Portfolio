@@ -17,11 +17,11 @@ export function Navigation() {
   }, [])
 
   const navItems = [
-    { href: "#home", label: "Início" },
-    { href: "#about", label: "Sobre" },
+    { href: "#home", label: "Home" },
+    { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projetos" },
-    { href: "#contact", label: "Contato" },
+    { href: "#projects", label: "Projects" },
+    { href: "#contact", label: "Contact" },
   ]
 
   return (

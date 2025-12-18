@@ -7,7 +7,7 @@ export function About() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-            <span className="gradient-text">Sobre Mim</span>
+            <span className="gradient-text">About Me</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -23,14 +23,14 @@ export function About() {
 
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Sou um desenvolvedor apaixonado por tecnologia, atualmente estudando Informática na
-                <span className="text-primary font-semibold"> UMAIA</span> e participando do programa intensivo da
+                I am a technology-passionate developer, currently studying Computer Science at
+                <span className="text-primary font-semibold"> UMAIA</span> and participating in the intensive program at
                 <span className="text-primary font-semibold"> 42 Porto</span>.
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Minha jornada no desenvolvimento começou com C e C++, expandindo para tecnologias web modernas como
-                React, Node.js e Next.js. Adoro resolver problemas complexos e criar soluções elegantes.
+                My development journey started with C and C++, expanding to modern web technologies such as React,
+                Node.js and Next.js. I love solving complex problems and creating elegant solutions.
               </p>
 
               <div className="grid gap-4 mt-8">
@@ -38,7 +38,7 @@ export function About() {
                   <CardContent className="flex items-center gap-4 p-4">
                     <GraduationCap className="h-6 w-6 text-primary" />
                     <div>
-                      <h3 className="font-semibold">Educação</h3>
+                      <h3 className="font-semibold">Education</h3>
                       <p className="text-sm text-muted-foreground">UMAIA & 42 Porto</p>
                     </div>
                   </CardContent>
@@ -48,7 +48,7 @@ export function About() {
                   <CardContent className="flex items-center gap-4 p-4">
                     <MapPin className="h-6 w-6 text-primary" />
                     <div>
-                      <h3 className="font-semibold">Localização</h3>
+                      <h3 className="font-semibold">Location</h3>
                       <p className="text-sm text-muted-foreground">Maia, Portugal</p>
                     </div>
                   </CardContent>
