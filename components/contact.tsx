@@ -44,7 +44,7 @@ export function Contact() {
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-primary">Get in Touch</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  I am always interested in new projects and opportunities. Let's create something incredible together!
+                  Open to freelance projects and junior developer positions. Let's discuss how I can help with your project.
                 </p>
               </div>
 

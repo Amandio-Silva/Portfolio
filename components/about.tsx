@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { GraduationCap, MapPin } from "lucide-react"
+import { MapPin } from "lucide-react"
 
 export function About() {
   return (
@@ -23,33 +23,24 @@ export function About() {
 
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I am a technology-passionate developer, currently studying Computer Science at
-                <span className="text-primary font-semibold"> UMAIA</span> and participating in the intensive program at
-                <span className="text-primary font-semibold"> 42 Porto</span>.
+                I started programming with C and C++, which gave me a solid foundation in how software works. Now I focus on building web applications with modern tools like React, Next.js, and Node.js.
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
-                My development journey started with C and C++, expanding to modern web technologies such as React,
-                Node.js and Next.js. I love solving complex problems and creating elegant solutions.
+                I enjoy solving real problems through code. Whether it's creating a responsive interface or optimizing application performance, I focus on writing clean, maintainable solutions.
+              </p>
+
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                Currently looking for opportunities to contribute to meaningful projects as a junior developer or freelance collaborator.
               </p>
 
               <div className="grid gap-4 mt-8">
                 <Card className="border-primary/20">
                   <CardContent className="flex items-center gap-4 p-4">
-                    <GraduationCap className="h-6 w-6 text-primary" />
-                    <div>
-                      <h3 className="font-semibold">Education</h3>
-                      <p className="text-sm text-muted-foreground">UMAIA & 42 Porto</p>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="border-primary/20">
-                  <CardContent className="flex items-center gap-4 p-4">
                     <MapPin className="h-6 w-6 text-primary" />
                     <div>
                       <h3 className="font-semibold">Location</h3>
-                      <p className="text-sm text-muted-foreground">Maia, Portugal</p>
+                      <p className="text-sm text-muted-foreground">Portugal</p>
                     </div>
                   </CardContent>
                 </Card>

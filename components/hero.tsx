@@ -51,9 +51,7 @@ export function Hero() {
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Computer Science student at <span className="text-primary font-semibold">UMAIA</span> and{" "}
-            <span className="text-primary font-semibold">42 Porto</span>. Passionate about creating innovative solutions
-            with clean and efficient code.
+            I build web applications using React, Next.js, and Node.js. Available for freelance projects and junior developer positions.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
