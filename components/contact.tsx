@@ -55,7 +55,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p className="text-muted-foreground">amandiofonres@icloud.com.com</p>
+                    <p className="text-muted-foreground">amandiofonres@icloud.com</p>
                   </div>
                 </div>
 
@@ -78,7 +78,7 @@ export function Contact() {
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <a href="mailto:amandiofonres@icloud.com.com">
+                  <a href="mailto:amandiofonres@icloud.com">
                     <Mail className="h-5 w-5 mr-2" />
                     Email
                   </a>
